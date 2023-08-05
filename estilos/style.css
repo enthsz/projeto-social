@@ -31,3 +31,29 @@ section#telefone{
     height: 627px;
     width: 311px;
 }
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 268px;
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 1px solid rgba(255, 255, 255, 0.523);
+    transform: translate(-3px, -3px);
+    transition: transform .3s;
+}
